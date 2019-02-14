@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Customerfollowup</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The Customer Follow Up is a Magento extension, which helps you send an auto-response email to your customers when they abandon their shopping carts. Follow up email increases your sales by changing your customers' mind for buying products from your store.</summary>
+    <description>The Customer Follow Up is a Magento extension, which helps you send an auto-response email to your customers when they abandon their shopping carts. Follow up email increases your sales by changing your customers' mind for buying products from your store.</description>
+    <notes>The Customer Follow Up is a Magento extension, which helps you send an auto-response email to your customers when they abandon their shopping carts. Follow up email increases your sales by changing your customers' mind for buying products from your store.</notes>
+    <authors><author><name>apptha</name><user>apptha</user><email>info@apptha.com</email></author></authors>
+    <date>2014-06-10</date>
+    <time>11:12:35</time>
+    <contents><target name="magelocal"><dir name="Apptha"><dir name="Customerfollowup"><dir name="Block"><dir name="Adminhtml"><dir name="Customerfollowup"><file name="Grid.php" hash="a3fd6a53bc60ae0f5d4db78e949892e5"/></dir><file name="Customerfollowup.php" hash="b5ff732b3cb5169c284118195e3332aa"/></dir><file name="Customerfollowup.php" hash="01676195972a9d29018a126a462aa19e"/></dir><dir name="Helper"><file name="Data.php" hash="0677b70adda48c909f5d84308a921fb0"/></dir><dir name="Model"><file name="Customerfollowup.php" hash="17381faf7bce1961ab028fd3e9cf1ce6"/><dir name="Mysql4"><dir name="Customerfollowup"><file name="Collection.php" hash="0a4ecee9b307f934aa4a4617a7243830"/></dir><file name="Customerfollowup.php" hash="4ca8f0d0f02407673e1652872a005bde"/></dir><file name="Observer.php" hash="829286ef13c78f64bd6f9d291e9bbbf4"/><dir name="Source"><file name="Amountequals.php" hash="f26fd3109461da3668c8c3e05f3c78a9"/></dir><file name="Status.php" hash="50ffe37a8f5dce8369d5098fd6406ddb"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="CustomerfollowupController.php" hash="cfc153ae25d70b2eeb36e1ae1151ef9b"/></dir><file name="IndexController.php" hash="dc449b14a02a47a5f77f5c98d39a7e21"/></dir><dir name="etc"><file name="adminhtml.xml" hash="dbff3409756c461b99b2259f80e82cf7"/><file name="config.xml" hash="1c6474ee993438092f980b4c1013237b"/><file name="system.xml" hash="3f8f96bc8aecf53bfc7f76ad4f1a65a2"/></dir><dir name="sql"><dir name="customerfollowup_setup"><file name="mysql4-install-0.1.0.php" hash="36026afa058f07ea9469a933d84415e4"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Apptha_Customerfollowup.xml" hash="b2752c1deaeafff75acc483c81f22d6c"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="customerfollowup.xml" hash="7815806dc904a921be11c8e1b1b1d597"/></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Apptha_Customerfollowup.csv" hash="9b014ad74dff16e84eadf5b3840a0a61"/><dir name="template"><dir name="email"><dir name="apptha_customerfollowup"><file name="apptha_customer_followup_email.html" hash="073714f2ba2728df9454eb41a017b922"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
